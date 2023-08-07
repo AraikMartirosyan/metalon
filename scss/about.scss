@@ -1,0 +1,35 @@
+$darkblue: #223E58;
+$blue: #295DA4;
+$transition: 0.15s ease-in-out;
+
+.about {
+    text-align: center;
+    font-size: 24px;
+    padding: 30px 0;
+    &-stats {
+        margin-bottom: 100px;
+        padding: 50px;
+        box-shadow: 0px 0px 10px 1px rgba(25,25,25,0.1);
+        span {
+            font-size: 32px;
+            color: $blue;
+            font-weight: 600;
+        }
+        &__item {
+            height: 100px;
+        }
+    }
+    &-content {
+        line-height: 1.2;
+        text-align: left;
+        h2 {
+            font-weight: 600;
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+        img {
+            height: 100%;
+            max-height: 700px;
+        }
+    }
+}

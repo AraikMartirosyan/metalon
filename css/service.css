@@ -1,0 +1,21 @@
+.service {
+  padding: 30px 0;
+}
+.service-title {
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 80px;
+}
+.service-item {
+  margin-bottom: 80px;
+}
+.service-item img {
+  height: 100px;
+  max-width: 100px;
+  margin-right: 30px;
+}
+.service-item h6 {
+  font-size: 28px;
+  color: #295DA4;
+}
+/*# sourceMappingURL=service.css.map */

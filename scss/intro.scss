@@ -1,0 +1,160 @@
+$darkblue: #223E58;
+$blue: #295DA4;
+$transition: 0.15s ease-in-out;
+
+.intro {
+    padding: 30px 0;
+    background-image: url('/images/intro-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    a {
+        color: #fff;
+    }
+    &-header__info {  
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;    
+        a {
+            color: #fff;
+        }
+        img {
+            width: 100%;
+            max-width: 250px;
+        }
+        &-mail {
+            img {
+                width: 47px;
+                max-height: 100%;
+                margin-right: 5px;
+            }
+        }
+        &-address {
+            img {
+                max-width: 47px;
+                max-height: 47px;
+                margin-right: 5px;
+            }
+        }
+        &-btn {
+            background-color: $darkblue;
+            transition: $transition;
+            border-radius: 16px;
+            text-align: center;
+            padding: 8px 10px;
+            font-size: 16px;
+            &:hover {
+                background-color: $blue;
+            }
+        }
+    }
+    // .header-info
+
+    &-header__nav {
+        margin-top: 65px;
+        &-catalog {
+            a {
+                font-size: 20px;
+                font-weight: 600;
+                div.burger-menu {
+                    display: block;
+                    width: 46px;
+                    height: 4px;
+                    background-color: #fff;
+                    margin-right: 15px;
+                    &::after,&::before {
+                        content: '';
+                        display: block;                       
+                        height: 4px;
+                        border-radius: 50px;
+                        background-color: #fff;
+                        transition: $transition;
+                    }
+                    &::before {
+                        transform: translateY(-12px);
+                        width: 24px;
+                    }
+                    &::after {
+                        transform: translateY(12px);
+                        margin-top: -4px;
+                        width: 20px;
+                    }
+                }
+            }
+        }
+        &-bar {
+            padding: 0;
+            background-color: #fff;
+            border-radius: 26px;
+            a {
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 20px;
+            }
+            &__links {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: $blue;
+                border-radius: 26px;
+                height: 100%;
+                a {
+                    margin: 15px;
+                }
+            }
+            &__search {
+                display: flex;
+                padding: 0 10px;
+               input {
+                margin-right: 10px;
+                width: 340px;
+                border: 0;
+                &:focus {
+                    outline: 0;
+                }
+               }
+               img {
+                width: 40px;
+                height: 40px;
+               }
+            }
+        }
+        // header bar  
+    }
+    // header-nav
+
+    &-content {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-30%);
+        margin-top: 25vh;
+        color: #fff;
+        &__title {
+            font-size: 80px;  
+            font-weight: 600;  
+            margin-bottom: 10px;
+        }
+        &__subtitle {
+            font-size: 40px;
+            font-weight: 400;
+            margin-bottom: 50px;
+        }
+        &__btn {
+            background-color: $darkblue;
+            font-weight: 600;
+            font-size: 26px;
+            border-radius: 22px;
+            padding: 20px 16px;
+            transition: $transition;
+            &:hover {
+                background-color: $blue;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .intro {
+        
+    }
+  }

@@ -1,0 +1,52 @@
+$darkblue: #223E58;
+$blue: #295DA4;
+
+$transition: 0.15s ease-in-out;
+
+@import 'fonts.css';
+@import 'intro.css';
+@import 'about.css';
+@import 'service.css';
+@import 'production.css';
+@import 'partners.css';
+@import 'news.css';
+@import 'callback.css';
+@import 'footer.css';
+
+
+body {
+    font-family: 'Montserrat' ;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.block-title {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    &__line {
+        margin-right: 25px;
+        width: 10px;
+        height: 80px;
+        background-color: $darkblue;
+    }
+}
+
+.body-btn {
+    color: #fff;
+    background-color: $darkblue;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 60px;
+    transition: $transition;
+    &:hover {
+        color: #fff;
+        background-color: $blue;
+    }
+}

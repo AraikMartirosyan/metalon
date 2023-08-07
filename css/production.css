@@ -1,0 +1,22 @@
+.production {
+  padding: 30px 0;
+  text-align: center;
+}
+.production-item {
+  color: #000;
+  padding: 30px 10px;
+  margin-bottom: 80px;
+  transition: 0.15s ease-in-out;
+  box-shadow: 0px 4px 4px 0px rgba(25, 25, 25, 0.25);
+}
+.production-item:hover {
+  box-shadow: 0px 6px 6px 0px rgba(25, 25, 25, 0.35);
+}
+.production-item img {
+  max-width: 200px;
+  margin-bottom: 30px;
+}
+.production-item span {
+  font-size: 18px;
+}
+/*# sourceMappingURL=production.css.map */

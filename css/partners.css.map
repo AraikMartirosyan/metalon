@@ -1,0 +1,1 @@
+{"version":3,"sources":["partners.scss"],"names":[],"mappings":"AAIA;EACI;;AACA;EACI","file":"partners.css","sourcesContent":["$darkblue: #223E58;\r\n$blue: #295DA4;\r\n$transition: 0.15s ease-in-out;\r\n\r\n.partners {\r\n    padding: 30px 0;\r\n    &-container {\r\n        box-shadow: 0px 0px 30px 0px rgba(25,25,25,0.1);\r\n    }\r\n}"]}

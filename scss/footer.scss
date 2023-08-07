@@ -1,0 +1,60 @@
+$darkblue: #223E58;
+$blue: #295DA4;
+$transition: 0.15s ease-in-out;
+
+.footer {
+    text-align-last: left;
+    background-image: url('/images/footer.jpg');
+    padding: 80px 0;
+    font-weight: 400;
+    color: #fff;
+    font-size: 16px;
+    a {
+        transition: $transition;
+        &:hover {
+            color: $blue;
+        }
+    }
+    &-logo {
+        width: 100%;
+    }
+    &-phones {
+        margin-bottom: 20px;
+        img {
+            width: 70px;
+            margin-right: 10px;
+        }
+        a {
+            margin: 10px 0;
+        }
+    }
+    &-mail {
+        img {
+            width: 70px;
+            margin-right: 10px;
+        }
+    }
+
+    // --- 1 ----
+
+    &-nav {
+       h6 {
+        margin-bottom: 20px;
+        font-size: 26px;
+       }
+       a {
+        margin-bottom: 10px;
+       }
+    }
+
+    &-links {
+        h6 {
+            margin-bottom: 15px;
+        }
+        a {
+            margin-bottom: 5px;
+        }
+    }
+
+
+}

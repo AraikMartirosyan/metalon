@@ -1,0 +1,45 @@
+.footer {
+  text-align-last: left;
+  background-image: url("/images/footer.jpg");
+  padding: 80px 0;
+  font-weight: 400;
+  color: #fff;
+  font-size: 16px;
+}
+.footer a {
+  transition: 0.15s ease-in-out;
+}
+.footer a:hover {
+  color: #295DA4;
+}
+.footer-logo {
+  width: 100%;
+}
+.footer-phones {
+  margin-bottom: 20px;
+}
+.footer-phones img {
+  width: 70px;
+  margin-right: 10px;
+}
+.footer-phones a {
+  margin: 10px 0;
+}
+.footer-mail img {
+  width: 70px;
+  margin-right: 10px;
+}
+.footer-nav h6 {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+.footer-nav a {
+  margin-bottom: 10px;
+}
+.footer-links h6 {
+  margin-bottom: 15px;
+}
+.footer-links a {
+  margin-bottom: 5px;
+}
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,47 @@
+@import 'fonts.css';
+@import 'intro.css';
+@import 'about.css';
+@import 'service.css';
+@import 'production.css';
+@import 'partners.css';
+@import 'news.css';
+@import 'callback.css';
+@import 'footer.css';
+body {
+  font-family: "Montserrat";
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.block-title {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+.block-title__line {
+  margin-right: 25px;
+  width: 10px;
+  height: 80px;
+  background-color: #223E58;
+}
+
+.body-btn {
+  color: #fff;
+  background-color: #223E58;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 60px;
+  transition: 0.15s ease-in-out;
+}
+.body-btn:hover {
+  color: #fff;
+  background-color: #295DA4;
+}
+/*# sourceMappingURL=style.css.map */
