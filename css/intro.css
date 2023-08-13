@@ -1,6 +1,6 @@
 .intro {
   padding: 30px 0;
-  background-image: url("images/intro-bg.jpg");
+  background-image: url("../images/intro-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 80vh;
