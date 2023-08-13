@@ -4,4 +4,10 @@
 .partners-container {
   box-shadow: 0px 0px 30px 0px rgba(25, 25, 25, 0.1);
 }
+
+@media screen and (max-width: 1400px) {
+  .partners {
+    padding: 20px 0;
+  }
+}
 /*# sourceMappingURL=partners.css.map */

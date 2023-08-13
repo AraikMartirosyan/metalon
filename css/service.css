@@ -18,4 +18,66 @@
   font-size: 28px;
   color: #295DA4;
 }
+
+@media screen and (max-width: 1400px) {
+  .service {
+    padding: 20px 0;
+  }
+  .service-title {
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+  }
+  .service-item {
+    margin-bottom: 40px;
+  }
+  .service-item img {
+    height: 60px;
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  .service-item h6 {
+    font-size: 20px;
+    color: #295DA4;
+  }
+}
+@media screen and (max-width: 768px) {
+  .service-title {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  .service-item {
+    margin-bottom: 20px;
+  }
+  .service-item img {
+    height: 50px;
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  .service-item h6 {
+    font-size: 20px;
+    color: #295DA4;
+  }
+}
+@media screen and (max-width: 360px) {
+  .service-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .service-item {
+    margin-bottom: 10px;
+  }
+  .service-item img {
+    height: 50px;
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  .service-item h6 {
+    font-size: 16px;
+    color: #295DA4;
+  }
+  .service-item p {
+    font-size: 10px;
+  }
+}
 /*# sourceMappingURL=service.css.map */

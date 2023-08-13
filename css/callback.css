@@ -31,4 +31,104 @@
 .callback-form__btn:hover {
   background-color: #295DA4;
 }
+
+@media screen and (max-width: 1400px) {
+  .callback {
+    padding: 20px 0;
+  }
+  .callback-form {
+    text-align: center;
+  }
+  .callback-form__title {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  .callback-form__input {
+    width: 100%;
+    min-height: 40px;
+    margin-bottom: 40px;
+    border: 0;
+    border-bottom: 1px solid #223E58;
+    font-size: 16px;
+  }
+  .callback-form__input:focus {
+    outline: 0;
+  }
+  .callback-form__btn {
+    background-color: #223E58;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 60px;
+    border-radius: 12px;
+    transition: 0.15s ease-in-out;
+  }
+  .callback-form__btn:hover {
+    background-color: #295DA4;
+  }
+}
+@media screen and (max-width: 992px) {
+  .callback-form {
+    text-align: center;
+  }
+  .callback-form__title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .callback-form__input {
+    width: 100%;
+    min-height: 40px;
+    margin-bottom: 30px;
+    border: 0;
+    border-bottom: 1px solid #223E58;
+    font-size: 14px;
+  }
+  .callback-form__input:focus {
+    outline: 0;
+  }
+  .callback-form__btn {
+    background-color: #223E58;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px 50px;
+    border-radius: 12px;
+    transition: 0.15s ease-in-out;
+  }
+  .callback-form__btn:hover {
+    background-color: #295DA4;
+  }
+}
+@media screen and (max-width: 768px) {
+  .callback img {
+    margin-bottom: 30px;
+  }
+  .callback-form__title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .callback-form__input {
+    width: 100%;
+    min-height: 30px;
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 1px solid #223E58;
+    font-size: 14px;
+  }
+  .callback-form__input:focus {
+    outline: 0;
+  }
+  .callback-form__btn {
+    background-color: #223E58;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px 50px;
+    border-radius: 12px;
+    transition: 0.15s ease-in-out;
+  }
+  .callback-form__btn:hover {
+    background-color: #295DA4;
+  }
+}
 /*# sourceMappingURL=callback.css.map */

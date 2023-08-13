@@ -16,7 +16,7 @@ $transition: 0.15s ease-in-out;
         }
     }
     &-logo {
-        width: 100%;
+        width: 200px;
     }
     &-phones {
         margin-bottom: 20px;
@@ -25,7 +25,7 @@ $transition: 0.15s ease-in-out;
             margin-right: 10px;
         }
         a {
-            margin: 10px 0;
+            margin: 2px 0 2px;
         }
     }
     &-mail {
@@ -39,8 +39,9 @@ $transition: 0.15s ease-in-out;
 
     &-nav {
        h6 {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         font-size: 26px;
+        font-weight: 600;
        }
        a {
         margin-bottom: 10px;
@@ -48,8 +49,10 @@ $transition: 0.15s ease-in-out;
     }
 
     &-links {
+        margin-bottom: 20px;
         h6 {
-            margin-bottom: 15px;
+            margin-bottom: 10px;
+            font-weight: 600;
         }
         a {
             margin-bottom: 5px;
@@ -58,3 +61,170 @@ $transition: 0.15s ease-in-out;
 
 
 }
+
+
+@media screen and (max-width: 1400px) {
+    .footer {
+        padding: 30px 10px;
+        color: #fff;
+        font-size: 12px;
+        &-logo {
+            width: 180px;
+        }
+        &-phones {
+            margin-bottom: 10px;
+            img {
+                width: 35px;
+                margin-right: 10px;
+            }
+            a {
+                margin: 0;
+            }
+        }
+        &-mail {
+            img {
+                width: 35px;
+                margin-right: 10px;
+            }
+        }
+    
+        // --- 1 ----
+    
+        &-nav {
+           h6 {
+            margin-bottom: 10px;
+            font-size: 14px;
+           }
+           a {
+            margin-bottom: 6px;
+           }
+        }
+    
+        &-links {
+            margin-bottom: 10px;
+            h6 {
+                margin-bottom: 10px;
+            }
+            a {
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 10px;
+        font-size: 12px;
+        &-logo {
+            width: 120px;
+        }
+        &-phones {
+            margin-bottom: 10px;
+            img {
+                width: 30px;
+                margin-right: 5px;
+            }
+            a {
+                margin: 0;
+                font-size: 10px;
+            }
+        }
+        &-mail {
+            display: flex;
+            align-items: center;
+            img {
+                width: 30px;
+                margin-right: 5px;
+            }
+            a {
+                font-size: 10px;
+            }
+        }
+    
+        // --- 1 ----
+    
+        &-nav {
+           h6 {
+            margin-bottom: 6px;
+            font-size: 14px;
+           }
+           a {
+            margin-bottom: 2px;
+           }
+        }
+    
+        &-links {
+            margin-bottom: 10px;
+            h6 {
+                margin-bottom: 6px;
+                font-size: 14px;
+            }
+            a {
+                margin-bottom: 2px;
+                font-size: 12px;
+            }
+        }
+    
+    
+    }
+
+}
+
+
+@media screen and (max-width: 360px) {
+    .footer {
+        &-logo {
+            width: 100px;
+        }
+        &-phones {
+            margin-bottom: 10px;
+            img {
+                width: 20px;
+                margin-right: 5px;
+            }
+            a {
+                margin: 0;
+                font-size: 8px;
+            }
+        }
+        &-mail {
+            img {
+                width: 20px;
+                margin-right: 5px;
+            }
+            a {
+                font-size: 8px;
+            }
+        }
+    
+        // --- 1 ----
+    
+        &-nav {
+           h6 {
+            margin-bottom: 6px;
+            font-size: 10px;
+           }
+           a {
+            margin-bottom: 2px;
+            font-size: 8px;
+           }
+        }
+    
+        &-links {
+            margin-bottom: 10px;
+            h6 {
+                margin-bottom: 6px;
+                font-size: 10px;
+            }
+            a {
+                margin-bottom: 2px;
+                font-size: 8px;
+            }
+        }
+    
+    
+    }
+
+}
+

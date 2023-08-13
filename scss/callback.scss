@@ -35,3 +35,111 @@ $transition: 0.15s ease-in-out;
         }
     }
 }
+
+@media screen and (max-width: 1400px) {
+    .callback {
+        padding: 20px 0;
+        &-form {
+            text-align: center;
+            &__title {
+                font-size: 20px;
+                margin-bottom: 40px;
+            }
+            &__input {
+                width: 100%;
+                min-height: 40px;
+                margin-bottom: 40px;
+                border: 0;
+                border-bottom: 1px solid $darkblue;
+                font-size: 16px;
+                &:focus {
+                    outline: 0;
+                }
+            }
+            &__btn {
+                background-color: $darkblue;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 400;
+                padding: 10px 60px;
+                border-radius: 12px;
+                transition: $transition;
+                &:hover {
+                    background-color: $blue;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .callback {
+        &-form {
+            text-align: center;
+            &__title {
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+            &__input {
+                width: 100%;
+                min-height: 40px;
+                margin-bottom: 30px;
+                border: 0;
+                border-bottom: 1px solid $darkblue;
+                font-size: 14px;
+                &:focus {
+                    outline: 0;
+                }
+            }
+            &__btn {
+                background-color: $darkblue;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 400;
+                padding: 6px 50px;
+                border-radius: 12px;
+                transition: $transition;
+                &:hover {
+                    background-color: $blue;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .callback {
+        img {
+            margin-bottom: 30px;
+        }
+        &-form {
+            &__title {
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+            &__input {
+                width: 100%;
+                min-height: 30px;
+                margin-bottom: 20px;
+                border: 0;
+                border-bottom: 1px solid $darkblue;
+                font-size: 14px;
+                &:focus {
+                    outline: 0;
+                }
+            }
+            &__btn {
+                background-color: $darkblue;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 400;
+                padding: 6px 50px;
+                border-radius: 12px;
+                transition: $transition;
+                &:hover {
+                    background-color: $blue;
+                }
+            }
+        }
+    }
+}
