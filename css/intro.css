@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 80vh;
+  max-height: 100vh;
 }
 .intro-catalog {
   min-height: 50vh;
