@@ -15,7 +15,8 @@
   color: #295DA4;
 }
 .footer-logo {
-  width: 200px;
+  max-width: 250px;
+  min-height: 43px;
 }
 .footer-phones {
   margin-bottom: 20px;
@@ -96,7 +97,8 @@
     font-size: 12px;
   }
   .footer-logo {
-    width: 120px;
+    width: 130px;
+    min-height: 20px;
   }
   .footer-phones {
     margin-bottom: 10px;

@@ -3,11 +3,14 @@
   background-image: url("../images/intro-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 80vh;
+  min-height: 100vh;
   max-height: 100vh;
 }
+.intro-short {
+  min-height: 30vh;
+}
 .intro-catalog {
-  min-height: 50vh;
+  min-height: 30vh;
 }
 .intro a {
   color: #fff;
@@ -247,8 +250,11 @@
   .intro {
     padding: 15px 0;
   }
+  .intro-short {
+    min-height: 20vh;
+  }
   .intro-catalog {
-    max-height: 40vh;
+    max-height: 30vh;
   }
   .intro-header__info {
     font-size: 12px;
@@ -300,7 +306,7 @@
     color: #fff;
   }
   .intro-content-catalog {
-    margin-top: 10vh;
+    margin-top: 7vh;
   }
   .intro-content__title {
     font-size: 58px;
@@ -321,7 +327,7 @@
 }
 @media screen and (max-width: 1200px) {
   .intro-catalog {
-    max-height: 40vh;
+    max-height: 20vh;
   }
   .intro-header__nav {
     margin-top: 45px;
@@ -337,7 +343,7 @@
 }
 @media screen and (max-width: 992px) {
   .intro-catalog {
-    min-height: 30vh !important;
+    min-height: 20vh !important;
   }
   .intro-header__info {
     display: none !important;
@@ -374,32 +380,32 @@
   .intro-mobile__logo {
     max-width: 230px;
   }
-  .intro-mobile.active body {
+  .intro-mobile__container.active body {
     overflow: hidden;
   }
-  .intro-mobile.active span {
+  .intro-mobile__container.active span {
     background-color: transparent;
   }
-  .intro-mobile.active span::before {
+  .intro-mobile__container.active span::before {
     width: 40px;
     transform: rotateZ(45deg) translateY(0);
   }
-  .intro-mobile.active span::after {
+  .intro-mobile__container.active span::after {
     width: 40px;
     transform: rotateZ(-45deg) translateY(0);
   }
-  .intro-mobile.active .burger-menu {
+  .intro-mobile__container.active .burger-menu {
     z-index: 1000;
     position: fixed;
     right: 5%;
   }
-  .intro-mobile.active .burger-menu span::before, .intro-mobile.active .burger-menu span::after {
+  .intro-mobile__container.active .burger-menu span::before, .intro-mobile__container.active .burger-menu span::after {
     background-color: #295DA4;
   }
   .intro-mobile .mobile__menu {
     padding: 120px 20px;
   }
-  .intro-mobile.active .mobile__menu {
+  .intro-mobile__container.active .mobile__menu {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -413,27 +419,27 @@
     height: 100vh;
     z-index: 100;
   }
-  .intro-mobile.active .mobile__menu .mobile__menu__nav {
+  .intro-mobile__container.active .mobile__menu .mobile__menu__nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
   }
-  .intro-mobile.active .mobile__menu .mobile__menu__nav a {
+  .intro-mobile__container.active .mobile__menu .mobile__menu__nav a {
     color: #295DA4;
     font-weight: 700;
     font-size: 18px;
   }
-  .intro-mobile.active .mobile__menu .mobile__menu__info {
+  .intro-mobile__container.active .mobile__menu .mobile__menu__info {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .intro-mobile.active .mobile__menu .mobile__menu__info a {
+  .intro-mobile__container.active .mobile__menu .mobile__menu__info a {
     font-size: 16px;
   }
-  .intro-mobile.active .mobile__menu a {
+  .intro-mobile__container.active .mobile__menu a {
     color: #223E58;
     font-size: 16px;
     font-weight: 600;

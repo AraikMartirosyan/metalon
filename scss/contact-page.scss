@@ -1,0 +1,110 @@
+.contacts-page {
+    padding: 50px 0;
+    &__table {
+        h4 {
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        font-size: 20px;
+        font-weight: 500;
+        table {
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+        td {
+            border: 1px solid gray;
+            padding:10px 20px;
+        }
+    }
+}
+
+.contacts-address {
+    padding: 50px 0;
+    background-color: #F8F8F8;
+    
+    &__info {
+        a {
+            color: #000;
+        }
+        &-item {
+            margin-bottom: 20px;
+            img {
+                max-width: 40px;
+                margin-right: 10px;
+            }
+            span, a {
+                font-size: 20px;
+            }
+        }
+    }
+    &__map {
+        img {
+            width: 550px;
+            max-width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .contacts-page {
+        padding: 40px 0;
+        &__table {
+            font-size: 18px;
+            td {
+                border: 1px solid gray;
+                padding: 8px 16px;
+            }
+        }
+    }
+    
+    .contacts-address {
+        padding: 40px 0;      
+        &__info {
+            &-item {
+                span, a {
+                    font-size: 18px;
+                }
+            }
+        }
+        &__map {
+            text-align: center;
+            img {
+                width: 400px;
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:992px) {
+    .contacts-page {
+        &__table {
+            margin-top: 50px;
+        }
+    }
+    
+    .contacts-address {
+        padding: 50px 0;
+        background-color: #F8F8F8;
+        &__info {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            &-item {
+                width: 500px;
+                max-width: 100%;
+                img {
+                    width: 30px;
+                }
+            }
+        }
+        &__map {
+            img {
+                width: 500px;
+                max-width: 100%;
+            }
+        }
+    }
+}

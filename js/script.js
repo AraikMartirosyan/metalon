@@ -1,4 +1,4 @@
-const burgerMenu = document.querySelector(".intro-mobile");
+const burgerMenu = document.querySelector(".intro-mobile__container");
 const burgerCatalog = document.querySelector(".burger-catalog");
 const catalogList = document.querySelector(".catalog-list");
 const filterButton = document.querySelector(".catalog-products__filter");
@@ -19,3 +19,6 @@ function Showfilter() {
 burgerMenu.addEventListener("click", toggleMenu);
 burgerCatalog.addEventListener("click", toggleCatalog);
 filterButton.addEventListener("click", Showfilter);
+
+
+

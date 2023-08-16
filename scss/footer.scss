@@ -18,7 +18,8 @@ $transition: 0.15s ease-in-out;
         }
     }
     &-logo {
-        width: 200px;
+        max-width: 250px;
+        min-height: 43px;
     }
     &-phones {
         margin-bottom: 20px;
@@ -119,7 +120,8 @@ $transition: 0.15s ease-in-out;
         padding: 10px;
         font-size: 12px;
         &-logo {
-            width: 120px;
+            width: 130px;
+            min-height: 20px;
         }
         &-phones {
             margin-bottom: 10px;

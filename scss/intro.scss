@@ -7,10 +7,13 @@ $transition: 0.15s ease-in-out;
     background-image: url('../images/intro-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 80vh;
+    min-height: 100vh;
     max-height: 100vh;
+    &-short {
+        min-height: 30vh;
+    }
     &-catalog {
-        min-height: 50vh; 
+        min-height: 30vh; 
     }
     a {
         color: #fff;
@@ -267,8 +270,11 @@ $transition: 0.15s ease-in-out;
 @media screen and (max-width: 1400px) {
     .intro {
         padding: 15px 0;
+        &-short {
+            min-height: 20vh;
+        }
         &-catalog {
-            max-height: 40vh;
+            max-height: 30vh;
         }
         &-header__info {  
             font-size: 12px; 
@@ -334,7 +340,7 @@ $transition: 0.15s ease-in-out;
             margin-top: 25vh;
             color: #fff;
             &-catalog {
-                margin-top: 10vh;
+                margin-top: 7vh;
             }
             &__title {
                 font-size: 58px;   
@@ -360,7 +366,7 @@ $transition: 0.15s ease-in-out;
   @media screen and (max-width: 1200px) {
     .intro {
         &-catalog {
-            max-height: 40vh;
+            max-height: 20vh;
         }
         &-header__nav {
             margin-top: 45px;
@@ -383,7 +389,7 @@ $transition: 0.15s ease-in-out;
   @media screen and (max-width: 992px) {
     .intro {
         &-catalog {
-            min-height: 30vh !important;
+            min-height: 20vh !important;
         }
         &-header__info {  
             display: none !important;
@@ -420,35 +426,37 @@ $transition: 0.15s ease-in-out;
                 }
             }
             &-mobile {
-
                 display: flex;
                 &__logo {
                     max-width: 230px;
                 }
-                &.active body {
-                    overflow: hidden;
-                }
-                &.active {     
-                    span {
-                        background-color: transparent;
-                            &::before {
-                                width: 40px;
-                                transform: rotateZ(45deg) translateY(0);
-                            }
-                            &::after {
-                                width: 40px;
-                                transform: rotateZ(-45deg) translateY(0);
-                            }
+                &__container {
+                    &.active body {
+                        overflow: hidden;
                     }
-                    .burger-menu {       
-                        z-index: 1000;
-                        position: fixed;
-                        right: 5%;                         
-                        span::before,span::after {
-                            background-color: $blue;
+                    &.active {     
+                        span {
+                            background-color: transparent;
+                                &::before {
+                                    width: 40px;
+                                    transform: rotateZ(45deg) translateY(0);
+                                }
+                                &::after {
+                                    width: 40px;
+                                    transform: rotateZ(-45deg) translateY(0);
+                                }
+                        }
+                        .burger-menu {       
+                            z-index: 1000;
+                            position: fixed;
+                            right: 5%;                     
+                            span::before,span::after {
+                                background-color: $blue;
+                            }
                         }
                     }
                 }
+                
                 .mobile__menu {
                     padding: 120px 20px;
                 }
@@ -456,7 +464,7 @@ $transition: 0.15s ease-in-out;
             
         }
         // header-nav
-        .intro-mobile.active .mobile__menu {
+        .intro-mobile__container.active .mobile__menu {
             .mobile__menu__nav {
                 display: flex;
                 flex-direction: column;
