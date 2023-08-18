@@ -1,5 +1,5 @@
 .about-page {
-    padding: 30px 0;
+    padding: 30px 0 0;
     &__content {
         margin-bottom: 100px;
         &-img {
@@ -13,20 +13,6 @@
     }
 }
 
-.why {
-    &-item {
-        margin-bottom: 60px;
-        &__title {
-            font-size: 24px;
-            font-weight: 500;
-            margin-bottom: 30px;
-        }
-        &__text {
-            font-size: 18px;
-            text-align: center;
-        }   
-    }
-}
 
 @media screen and (max-width: 1400px) {
     .about-page {
@@ -78,3 +64,131 @@
     }
 }
 
+
+
+.why {
+    padding: 0 0 30px; 
+    &-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        &__img {      
+                width: 180px;
+                height: 180px;
+                border-radius: 50%;
+                border: 3px solid #295DA4;    
+            img {
+                border-radius: 50%;
+                padding: 3px;
+                transition: ease-in-out all .3s;
+
+                &:hover {
+                    transform: scale(90%);
+                    transition: ease-in-out all .3s;
+
+                }
+
+            }
+        }
+        &__decor {
+            height: 3px;
+            width: 50px;
+            background-color: #295DA4;
+        }
+        &__text {
+            font-size: 18px;
+            background-color: #295DA4;
+            color: #fff;
+            font-weight: 400;
+            padding: 20px 30px;
+            border-radius: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .why {
+        &-item {
+            &__img {      
+                    width: 160px;
+                    height: 160px; 
+            }
+            &__text {
+                font-size: 16px;
+                padding: 10px 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .why {
+        &-item {
+            &__img {      
+                    width: 140px;
+                    height: 140px; 
+            }
+            &__text {
+                font-size: 16px;
+                padding: 10px 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .why {
+        &-item {
+            &__img {      
+                    width: 100px;
+                    height: 100px; 
+            }
+            &__text {
+                font-size: 15px;
+                padding: 10px 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .why {
+        &-item {
+            display: flex;
+            flex-direction: column;
+            flex-flow: column !important;
+            &__img {      
+                    width: 100px;
+                    height: 100px; 
+            }
+            &__decor {
+                height: 20px;
+                width: 3px;
+            }
+            &__text {
+                font-size: 14px;
+                padding: 10px 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .why {
+        &-item {
+            &__img {      
+                    width: 100px;
+                    height: 100px; 
+            }
+            &__decor {
+                height: 20px;
+                width: 3px;
+            }
+            &__text {
+                font-size: 12px;
+                padding: 10px 10px;
+            }
+        }
+    }
+}

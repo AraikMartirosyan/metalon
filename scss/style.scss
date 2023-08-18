@@ -37,12 +37,23 @@ img {
 .page-title {
     font-size: 40px;
     font-weight: 500;
-    text-align: left;
+    text-align: center;
     margin-bottom: 30px;
 }
 @media screen and (max-width: 768px) {
     .page-title {
-        font-size: 30px;
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .page-title {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .page-title {
+        font-size: 16px;
     }
 }
 
